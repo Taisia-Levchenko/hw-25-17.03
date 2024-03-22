@@ -1,0 +1,23 @@
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.square:nth-child(1) {
+    background-color: #f55f71;
+    z-index: -1;
+}
+
+.square:nth-child(2) {
+    background-color: #579af2;
+    left: 60px;
+    top: 60px;
+}
+
+.square:nth-child(3) {
+    background-color: #57f269;
+    left: 110px;
+    top: 110px;
+    z-index: -1;
+}
